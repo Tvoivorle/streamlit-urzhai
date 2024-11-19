@@ -10,11 +10,10 @@ from sklearn.ensemble import RandomForestRegressor
 from sklearn.metrics import mean_squared_error, r2_score, mean_absolute_error
 
 # Загружаем данные
-path = r"C:\Users\Stepan\Documents\РГАУ МСХА\Статьи\Урожайность\Машинное обучение для урожайности\Датасеты"
-agronomic_data_path = os.path.join(path, "Агрономические данные.xlsx")
-climate_data_path = os.path.join(path, "Климат по 10дням.xlsx")
-soil_data_path = os.path.join(path, "Почвенные данные.xlsx")
-vegetation_data_path = os.path.join(path, "Вегетационный период.xlsx")
+agronomic_data_path = "Агрономические данные.xlsx"
+climate_data_path = "Климат по 10дням.xlsx"
+soil_data_path = "Почвенные данные.xlsx"
+vegetation_data_path = "Вегетационный период.xlsx"
 
 agronomic_data = pd.read_excel(agronomic_data_path, decimal=',')
 climate_data = pd.read_excel(climate_data_path, decimal=',')
