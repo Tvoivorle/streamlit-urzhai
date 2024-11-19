@@ -1,0 +1,8 @@
+pandas
+os
+streamlit
+plotly.express
+seaborn
+matplotlib.pyplot
+statsmodels.api
+plotly
